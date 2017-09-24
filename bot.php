@@ -21,7 +21,7 @@ if (!is_null($events['events'])) {
 				$text ="สวัสดิ เหมือนกัน";
 			}
 			
-			if($text =="command 1108")
+			if($text =="command->")
 			{
 				$text =" Bot ready for command";
 			}
