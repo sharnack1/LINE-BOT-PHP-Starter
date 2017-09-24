@@ -20,6 +20,11 @@ if (!is_null($events['events'])) {
 			{
 				$text ="สวัสดิ เหมือนกัน";
 			}
+			
+			if($text =="command 1108")
+			{
+				$text =" Bot ready for command";
+			}
 
 			// Build message to reply back
 			$messages = [
