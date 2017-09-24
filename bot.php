@@ -18,18 +18,18 @@ if (!is_null($events['events'])) {
 			
 			if($text =="สวัสดี")
 			{
-				$text ="สวัสดิ เหมือนกัน";
+				$text_reply ="สวัสดิ เหมือนกัน";
 			}
 			
 			if($text =="command->")
 			{
-				$text =" Bot ready for command";
+				$text_reply =" Bot ready for command";
 			}
 
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => $text
+				'text' => $text_reply
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
