@@ -16,10 +16,7 @@ if (!is_null($events['events'])) {
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			
-			if($text =="สวัสดี")
-			{
-				$text_reply ="สวัสดิ เหมือนกัน";
-			}
+			
 			
 			if($text =="command->")
 			{
