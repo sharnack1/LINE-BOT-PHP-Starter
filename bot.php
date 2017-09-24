@@ -18,9 +18,24 @@ if (!is_null($events['events'])) {
 			
 			
 			
-			if($text =="command->")
+			if($text =="->")
 			{
 				$text_reply =" Bot ready for command";
+			}
+			
+			if($text =="->ค้นหา->ผิดนัด->ยะลา->ยะหา")
+			{
+				$text_reply =" พบผู้ป่วยผิดนัด 2 ราย";
+			}
+			
+			if($text =="->ค้นหา->ผิดนัด->ยะลา->รามัน")
+			{
+				$text_reply =" พบผู้ป่วยผิดนัด 0 ราย";
+			}
+			
+			if($text =="->ค้นหา->ผิดนัด->ยะลา")
+			{
+				$text_reply =" พบผู้ป่วยผิดนัด 2 ราย";
 			}
 
 			// Build message to reply back
